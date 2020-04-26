@@ -1,0 +1,26 @@
+{
+  "name": "remark-contents",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/n-inokawa/remark-contents.git"
+  },
+  "author": "n-inokawa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/n-inokawa/remark-contents/issues"
+  },
+  "homepage": "https://github.com/n-inokawa/remark-contents#readme",
+  "dependencies": {
+    "mdast-util-toc": "^5.0.3",
+    "unist-util-filter": "^2.0.2",
+    "unist-util-parents": "^1.0.3"
+  },
+  "devDependencies": {
+    "@types/unist": "^2.0.3"
+  }
+}
