@@ -10,6 +10,21 @@
     "type": "git",
     "url": "git+https://github.com/n-inokawa/remark-contents.git"
   },
+  "keywords": [
+    "unist",
+    "remark",
+    "retext",
+    "rehype",
+    "hast",
+    "mdast",
+    "nlcst",
+    "markdown",
+    "toc",
+    "table",
+    "of",
+    "contents",
+    "list"
+  ],
   "author": "n-inokawa",
   "license": "MIT",
   "bugs": {
@@ -23,6 +38,9 @@
   },
   "devDependencies": {
     "@types/unist": "^2.0.3",
-    "jest": "^25.4.0"
+    "jest": "^25.4.0",
+    "remark-parse": "^8.0.2",
+    "remark-stringify": "^8.0.0",
+    "unified": "^9.0.0"
   }
 }
