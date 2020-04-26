@@ -43,4 +43,38 @@ dddd
         );
       });
   });
+
+  it("has same heading", () => {
+    return processor()
+      .process(
+        `# Alpha
+
+aaaa
+
+## Alpha
+
+bbbb
+
+### Alpha
+
+cccc
+
+## Delta
+
+dddd
+`
+      )
+      .then((res) => {
+        expect(res.contents).toBe(
+          `-   [Alpha](#alpha)
+
+    -   [Alpha](#alpha-1)
+
+        -   [Alpha](#alpha-2)
+
+    -   [Delta](#delta)
+`
+        );
+      });
+  });
 });
