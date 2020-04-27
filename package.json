@@ -1,6 +1,6 @@
 {
   "name": "remark-contents",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "remark plugin to extract table of contents",
   "main": "index.js",
   "scripts": {
@@ -10,22 +10,8 @@
     "type": "git",
     "url": "git+https://github.com/n-inokawa/remark-contents.git"
   },
-  "keywords": [
-    "unist",
-    "remark",
-    "retext",
-    "rehype",
-    "hast",
-    "mdast",
-    "nlcst",
-    "markdown",
-    "toc",
-    "table",
-    "of",
-    "contents",
-    "list"
-  ],
-  "author": "n-inokawa",
+  "keywords": [ "unist", "remark", "retext", "rehype","hast", "mdast", "nlcst", "markdown", "toc", "table", "of", "contents", "list" ],
+  "author": "n-inokawa <stratoooo-taster@yahoo.co.jp> (https://github.com/n-inokawa/)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/n-inokawa/remark-contents/issues"
