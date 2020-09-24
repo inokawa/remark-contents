@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/n-inokawa/remark-contents.git"
+    "url": "git+https://github.com/inokawa/remark-contents.git"
   },
   "keywords": [ "unist", "remark", "retext", "rehype","hast", "mdast", "nlcst", "markdown", "toc", "table", "of", "contents", "list" ],
-  "author": "n-inokawa <stratoooo-taster@yahoo.co.jp> (https://github.com/n-inokawa/)",
+  "author": "inokawa <stratoooo-taster@yahoo.co.jp> (https://github.com/inokawa/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/n-inokawa/remark-contents/issues"
+    "url": "https://github.com/inokawa/remark-contents/issues"
   },
-  "homepage": "https://github.com/n-inokawa/remark-contents#readme",
+  "homepage": "https://github.com/inokawa/remark-contents#readme",
   "dependencies": {
     "mdast-util-toc": "^5.0.3",
     "unist-util-filter": "^2.0.2",
