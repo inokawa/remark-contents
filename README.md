@@ -12,7 +12,7 @@ npm install remark-contents
 
 # Usage
 
-```
+```javascript
 var unified = require("unified");
 var markdown = require("remark-parse");
 var remark2rehype = require("remark-rehype");
